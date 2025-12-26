@@ -1,0 +1,32 @@
+/* prettier-ignore */
+html,
+body {
+    color: #000000;
+    /* Globale Textfarbe */
+    font-family: 'Univers', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'Univers';
+    font-style: italic;
+    font-weight: normal;
+    src: local(""), url("/fonts/UniversforUniS45LtObl-Rg.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Univers';
+    font-style: normal;
+    font-weight: normal;
+    src: local(""), url("/fonts/UniversforUniS55Rm-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Univers';
+    font-style: bold;
+    font-weight: normal;
+    src: local(""), url("/fonts/UniversforUniS65Bd-Regular.ttf") format("truetype");
+}
+
